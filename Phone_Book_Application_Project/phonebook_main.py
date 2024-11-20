@@ -19,10 +19,12 @@ import phonebook_func
 
 # Defines the class that inherits the attributes of the "Frame" class in Tkinter
 class ParentWindow(Frame):
+    #Initializes the objects fo the class, including itself, the "master" Frame configuration from
+    # tkinter, undefined arguments (*args) and undefined keyword arguments (**kwargs)
     def __init__(self, master, *args, **kwargs):
         Frame.__init__(self, master, *args, **kwargs)
 
-        # Defines the master frame configuration
+        # Defines the master frame configuration. master is invoked from tkinter's Frame module
         self.master = master
         self.master.minsize(500,300) #(Height, Width) - Locks in window size
         self.master.maxsize(500,300)
