@@ -4,7 +4,7 @@
 <h2>Projects</h2>
   <p>
     - <a href="#django_projects">Django Projects</a><br>
-    - <a href="#misc">Miscellaneous Assignments and Challenges</a>
+    - <a href="#misc">Miscellaneous Assignments and Challenges</a><br>
     - <a href="#nice_mean">Nice or Mean Game</a><br>
     - <a href="#phone_book">Phone Book Application Project</a><br>
   </p>
